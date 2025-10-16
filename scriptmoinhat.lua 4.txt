@@ -1951,8 +1951,8 @@ end
 
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local Window = Fluent:CreateWindow({
-    Title = "Banana cat hub ",
-    SubTitle = "Premium by obii",
+    Title = "Banana cat hub(premium)) ",
+    SubTitle = "by obii",
     TabWidth = 155,
     Size = UDim2.fromOffset(485, 370),
     Acrylic = false,
@@ -1965,7 +1965,7 @@ local Tabs = {
         Icon = ""
     }),
     Settings = Window:AddTab({
-        Title = "Config",
+        Title = "setting",
         Icon = ""
     }),
     Melee = Window:AddTab({
