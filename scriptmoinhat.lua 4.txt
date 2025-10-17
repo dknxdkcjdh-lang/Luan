@@ -1951,7 +1951,7 @@ end
 
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local Window = Fluent:CreateWindow({
-    Title = "Banana Cat hub[Premium]",
+    Title = "Banana Cat hub [Premium]",
     SubTitle = "by obii",
     TabWidth = 155,
     Size = UDim2.fromOffset(485, 370),
@@ -1961,63 +1961,63 @@ local Window = Fluent:CreateWindow({
 })
 local Tabs = {
     Main = Window:AddTab({
-        Title = "Farm",
+        Title = "Tab Farm",
         Icon = ""
     }),
     Settings = Window:AddTab({
-        Title = "setting",
+        Title = "Tab Setting",
         Icon = ""
     }),
     Melee = Window:AddTab({
-        Title = "Fighting Style",
+        Title = "TFighting Style",
         Icon = ""
     }),
     Quests = Window:AddTab({
-        Title = "Items Farm",
+        Title = "Tab Items Farm",
         Icon = ""
     }),
     New = Window:AddTab({
-        Title = "New Events",
+        Title = "Tab New Events",
         Icon = ""
     }),
     SeaEvent = Window:AddTab({
-        Title = "Sea Events",
+        Title = "Tab Sea Events",
         Icon = ""
     }),
     Mirage = Window:AddTab({
-        Title = "Mirage + RaceV4",
+        Title = "Tab Mirage + RaceV4",
         Icon = ""
     }),
     Drago = Window:AddTab({
-        Title = "Drago Dojo",
+        Title = "Tab Drago Dojo",
         Icon = ""
     }),
     Prehistoric = Window:AddTab({
-        Title = "Prehistoric",
+        Title = "Tab Prehistoric",
         Icon = ""
     }),
     Raids = Window:AddTab({
-        Title = "Raid",
+        Title = "Tab Raid",
         Icon = ""
     }),
     Combat = Window:AddTab({
-        Title = "Combat PVP",
+        Title = "Tab Combat PVP",
         Icon = ""
     }),
     Travel = Window:AddTab({
-        Title = "Teleport",
+        Title = "Tab Teleport",
         Icon = ""
     }),
     Fruit = Window:AddTab({
-        Title = "Fruits",
+        Title = "Tab Fruits",
         Icon = ""
     }),
     Shop = Window:AddTab({
-        Title = "Shop",
+        Title = "Tab Shop",
         Icon = ""
     }),
     Misc = Window:AddTab({
-        Title = "Misc",
+        Title = " Tab Misc",
         Icon = ""
     })
 }
