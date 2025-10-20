@@ -1951,7 +1951,7 @@ end
 
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local Window = Fluent:CreateWindow({
-    Title = "Banana Cat hub [Premium]",
+    Title = "Banana Cat hub [ Premium ] ",
     SubTitle = "by obii",
     TabWidth = 155,
     Size = UDim2.fromOffset(485, 370),
@@ -2738,6 +2738,43 @@ spawn(function()
         end)
     end)
 end)
+    local v490 = v16.Main:AddSection("Cake Prince");
+    local v491 = v16.Main:AddParagraph({
+        Title = "Status",
+        Content = ""
+    });
+    spawn(function()
+        while wait() do
+            pcall(function()
+                if (string.len(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner")) == 88) then
+                    v491:SetDesc("Left: " .. string.sub(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner"), 39, 41) .. "");
+                elseif (string.len(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner")) == 87) then
+                    v491:SetDesc("Còn: " .. string.sub(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner"), 39, 40) .. "");
+                elseif (string.len(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner")) == 86) then
+                    v491:SetDesc("Còn: " .. string.sub(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("CakePrinceSpawner"), 39, 39) .. " ");
+                else
+                    v491:SetDesc("Tư Lệnh Bánh : ✅️");
+                end
+            end);
+        end
+    end);
+    local v492 = v16.Main:AddToggle("ToggleCake", {
+        Title = "Auto Cake Prince",
+        Description = "",
+        Default = false
+    });
+    local v493 = true;
+    v492:OnChanged(function(v575)
+        _G.CakePrince = v575;
+        if v575 then
+            if v493 then
+                v493 = false;
+                local v895 = CFrame.new(- 2003.932861328125, 380.4824523925781, - 12561.0185546875);
+                Tween(v895);
+            end
+        else
+            v493 = true;
+            wait();
 spawn(function()
     while wait(Sec) do
         if _G.FarmMastery_Dev then
